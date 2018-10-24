@@ -1,0 +1,37 @@
+{
+  "name": "underground-hiplatform",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "author": "Alcione de Lucca Júnior",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junodluk/underground-hiplatform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junodluk/underground-hiplatform/issues"
+  },
+  "homepage": "https://github.com/junodluk/underground-hiplatform#readme"
+}
