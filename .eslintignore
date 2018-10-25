@@ -1,0 +1,6 @@
+*.test.js
+*.spec.js
+scripts/
+cz/
+config/
+build/

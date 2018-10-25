@@ -18,6 +18,13 @@
   "plugins": [
     "react"
   ],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "16.6"
+    }
+  },
   "rules": {
     "indent": [
       "error",

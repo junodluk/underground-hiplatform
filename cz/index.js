@@ -14,7 +14,7 @@ module.exports = {
         name: 'fix:      A bug fix',
         value: 'fix'
       }, {
-        name: 'test:     Adding missing tests',
+        name: 'test:     Adding missing tests or modifying existing ones',
         value: 'test'
       }, {
         name: 'refactor: A code change that neither fixes a bug or adds a feature',
