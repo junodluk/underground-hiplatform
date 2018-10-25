@@ -5,11 +5,20 @@
   "author": "Alcione de Lucca Júnior",
   "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "commit": "git-cz",
+    "test": "node scripts/test.js",
+    "eslint": "node node_modules/eslint/bin/eslint",
+    "eslint:run": "node node_modules/eslint/bin/eslint src/**/*.js",
+    "eslint:fix-indent": "node node_modules/eslint/bin/eslint --fix --ext js --no-eslintrc  --rule 'indent: [error,2,{SwitchCase: 1}]' src/**/*.js",
+    "eslint:fix-all": "node node_modules/eslint/bin/eslint --fix src/**/*.js"
+  },
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
     "babel-core": "7.0.0-bridge.0",
-    "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
     "babel-plugin-named-asset-import": "^0.2.2",
@@ -20,13 +29,6 @@
     "css-loader": "1.0.0",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
-    "eslint": "^5.7.0",
-    "eslint-config-react-app": "^3.0.4",
-    "eslint-loader": "2.1.1",
-    "eslint-plugin-flowtype": "2.50.1",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-react": "7.11.1",
     "file-loader": "2.0.0",
     "fs-extra": "7.0.0",
     "html-webpack-plugin": "4.0.0-alpha.2",
@@ -56,12 +58,11 @@
     "workbox-webpack-plugin": "3.6.2"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0"
-  },
-  "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "babel-eslint": "9.0.0",
+    "eslint": "^5.7.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-react": "7.11.1"
   },
   "eslintConfig": {
     "extends": "react-app"

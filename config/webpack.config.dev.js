@@ -179,7 +179,7 @@ module.exports = {
             options: {
               formatter: require.resolve('react-dev-utils/eslintFormatter'),
               eslintPath: require.resolve('eslint'),
-              
+              failOnError: true
             },
             loader: require.resolve('eslint-loader'),
           },
