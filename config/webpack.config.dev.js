@@ -141,6 +141,7 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+      'api': path.resolve('src/api'),
       'components': path.resolve('src/components'),
       'utils': path.resolve('src/utils'),
     },
