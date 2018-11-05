@@ -175,7 +175,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         enforce: 'pre',
-        exclude: /node_modules/,
+        exclude: [/node_modules/, /oauth-server/],
         loader: "eslint-loader",
         options: {
           emitWarning: true,

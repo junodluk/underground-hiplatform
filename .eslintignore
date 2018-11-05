@@ -1,5 +1,6 @@
 *.test.js
 *.spec.js
+oauth-server/
 scripts/
 cz/
 config/

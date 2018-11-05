@@ -1,12 +1,13 @@
 {
   "name": "underground-hiplatform",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "",
   "author": "Alcione de Lucca Júnior",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "start": "node scripts/start.js",
+    "start:local": "node scripts/start.js local",
     "build": "node scripts/build.js",
     "commit": "git-cz",
     "test": "node scripts/test.js",
