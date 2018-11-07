@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './app.scss';
 import { Toolbar } from 'react-md';
 import { PureSearch } from 'components/search';
+import { Button } from 'components/button';
 // import { executeLogin } from 'api';
 
 class App extends Component {
@@ -43,6 +44,11 @@ class App extends Component {
             <p>
               Edit <code>src/app.js</code> and save to reload.
             </p>
+            <Button
+              onClick={() => {
+                console.log('Test'); // eslint-disable-line
+              }}
+            />
             <a
               className="App-link"
               href="https://reactjs.org"

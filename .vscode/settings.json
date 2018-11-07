@@ -2,6 +2,9 @@
   "files.exclude": {
     "**/.git": false
   },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
   "emmet.includeLanguages": {

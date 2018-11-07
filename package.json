@@ -13,7 +13,9 @@
     "test": "node scripts/test.js",
     "eslint": "node node_modules/eslint/bin/eslint ./",
     "eslint:fix-indent": "node node_modules/eslint/bin/eslint --fix --ext js --no-eslintrc  --rule 'indent: [error,2,{SwitchCase: 1}]' src/**/*.js",
-    "eslint:fix-all": "node node_modules/eslint/bin/eslint --fix src/**/*.js"
+    "eslint:fix-all": "node node_modules/eslint/bin/eslint --fix src/**/*.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@babel/core": "7.1.0",
@@ -61,6 +63,11 @@
     "workbox-webpack-plugin": "3.6.2"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/addon-links": "^4.0.4",
+    "@storybook/addon-options": "^4.0.4",
+    "@storybook/addons": "^4.0.4",
+    "@storybook/react": "^4.0.4",
     "babel-eslint": "9.0.0",
     "babel-jest": "^23.6.0",
     "enzyme": "^3.7.0",
@@ -74,7 +81,8 @@
     "jest-pnp-resolver": "^1.0.1",
     "jest-resolve": "^23.6.0",
     "react-md": "^1.8.0",
-    "react-test-renderer": "^16.6.0"
+    "react-test-renderer": "^16.6.0",
+    "storybook-readme": "^4.0.2"
   },
   "eslintConfig": {
     "extends": "react-app"
