@@ -1,14 +1,14 @@
 {
-  "main.css": "underground-hiplatform/static/css/main.7b1f6d32.chunk.css",
-  "main.js": "underground-hiplatform/static/js/main.fcb55924.chunk.js",
-  "main.js.map": "underground-hiplatform/static/js/main.fcb55924.chunk.js.map",
-  "static/js/1.44150c83.chunk.js": "underground-hiplatform/static/js/1.44150c83.chunk.js",
-  "static/js/1.44150c83.chunk.js.map": "underground-hiplatform/static/js/1.44150c83.chunk.js.map",
-  "runtime~main.js": "underground-hiplatform/static/js/runtime~main.f095f18f.js",
-  "runtime~main.js.map": "underground-hiplatform/static/js/runtime~main.f095f18f.js.map",
-  "static/media/logo.svg": "underground-hiplatform/static/media/logo.ee7cd8ed.svg",
-  "static/css/main.7b1f6d32.chunk.css.map": "underground-hiplatform/static/css/main.7b1f6d32.chunk.css.map",
-  "index.html": "underground-hiplatform/index.html",
-  "precache-manifest.433d9a01e1d7545e07a50956b4fa1998.js": "underground-hiplatform/precache-manifest.433d9a01e1d7545e07a50956b4fa1998.js",
-  "service-worker.js": "underground-hiplatform/service-worker.js"
+  "main.css": "/junodluk/underground-hiplatform/static/css/main.7b1f6d32.chunk.css",
+  "main.js": "/junodluk/underground-hiplatform/static/js/main.8658bc6a.chunk.js",
+  "main.js.map": "/junodluk/underground-hiplatform/static/js/main.8658bc6a.chunk.js.map",
+  "static/js/1.44150c83.chunk.js": "/junodluk/underground-hiplatform/static/js/1.44150c83.chunk.js",
+  "static/js/1.44150c83.chunk.js.map": "/junodluk/underground-hiplatform/static/js/1.44150c83.chunk.js.map",
+  "runtime~main.js": "/junodluk/underground-hiplatform/static/js/runtime~main.887b12e3.js",
+  "runtime~main.js.map": "/junodluk/underground-hiplatform/static/js/runtime~main.887b12e3.js.map",
+  "static/media/logo.svg": "/junodluk/underground-hiplatform/static/media/logo.ee7cd8ed.svg",
+  "static/css/main.7b1f6d32.chunk.css.map": "/junodluk/underground-hiplatform/static/css/main.7b1f6d32.chunk.css.map",
+  "index.html": "/junodluk/underground-hiplatform/index.html",
+  "precache-manifest.2b1affbb6bdf85de8a0cef01d0e0c3cd.js": "/junodluk/underground-hiplatform/precache-manifest.2b1affbb6bdf85de8a0cef01d0e0c3cd.js",
+  "service-worker.js": "/junodluk/underground-hiplatform/service-worker.js"
 }
