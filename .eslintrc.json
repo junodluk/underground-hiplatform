@@ -1,43 +1,24 @@
 {
-  "env": {
-    "node": true,
-    "browser": true,
-    "es6": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "root": true,
   "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+  "browser": true
+  },
+  "rules": {
+    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+    "no-plusplus": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["./webpack.config.js"]}],
+    "react/forbid-prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/no-array-index-key": "off"
+  },
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+      "experimentalObjectRestSpread": true
+    }
   },
   "plugins": [
     "react"
-  ],
-  "settings": {
-    "react": {
-      "createClass": "createReactClass",
-      "pragma": "React",
-      "version": "16.6"
-    }
-  },
-  "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
-  }
+  ]
 }
