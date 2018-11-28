@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/junodluk/underground-hiplatform/precache-manifest.e49b04276b060a832b52cbfbbb22e24c.js"
+  "underground-hiplatform/precache-manifest.433d9a01e1d7545e07a50956b4fa1998.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/junodluk/underground-hiplatform/index.html", {
+workbox.routing.registerNavigationRoute("underground-hiplatform/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
