@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import './index.scss';
 import App from './app';
 import Callback from './callback';
@@ -15,12 +15,12 @@ WebFontLoader.load({
 });
 
 const routing = (
-  <Router>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route path="/callback" component={Callback} />
       <Route component={App} />
     </Switch>
-  </Router>
+  </BrowserRouter>
 );
 
 ReactDOM.render(routing, document.getElementById('root'));
