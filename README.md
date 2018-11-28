@@ -1,6 +1,6 @@
 # underGROUND - A HiPlatform Challenge
 
-- [App on GitHub Pages](link)
+- [Live Demo!](https://junodluk.github.io/underground-hiplatform/)
 
 Project created as a challenge for HiPlatform.
 
@@ -28,4 +28,4 @@ Authored by **Alcione de Lucca Júnior** <junior.dluk@gmail.com>
 ## Authentication Server
 - [Online on Heroku](https://spotify-oauth-server.herokuapp.com/)
 
-The source and documentation running on the Authentication Server (create by me) is available in this [folder](https://github.com/junodluk/underground-hiplatform/tree/master/oauth-server)
+The source and documentation running on the Authentication Server (create by me) is available at this public [repository](https://github.com/junodluk/spotify-oauth-server).
