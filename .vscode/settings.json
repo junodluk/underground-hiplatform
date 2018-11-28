@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/.git": false
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  }
+}
